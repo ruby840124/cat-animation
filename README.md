@@ -1,5 +1,6 @@
 ## cat-animation
-test for lottie 套件(未完成)    
+test for lottie 套件(未完成)  
+<br>
 簡介:  
 Lottie是由Airbnb所開發  
 可將After Effects動畫應用在iOS、MacOS、Android與React Native等的原生App上的函式庫(Library)。  
