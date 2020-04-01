@@ -1,5 +1,6 @@
 ## cat-animation
-test for lottie 套件  
+test for lottie 套件    
+使用相關套件-  
 animation:lottie  
 slider:rc-slider  
 icon:react-icons  
