@@ -17,9 +17,10 @@ Lottie由Airbnb所發展，
 而Lottie讀取這個轉換後的JSON檔案，可以將設計師的動畫及時渲染在裝置上。  
 ## UI
 手機:  
-有播放及停止鍵，還有調整速度的Slider  
-<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile1.jpg" width="40%" height="60%">  
-<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile2.jpg" width="40%" height="60%">  
+有播放及停止鍵，還有調整速度的Slider， 
+按下選單，可以換別的貓咪動畫。  
+<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile1.jpg" width="30%" height="45%">  
+<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile2.jpg" width="30%" height="45%">  
 
 ## demo
 https://ruby840124.github.io/cat-animation/
