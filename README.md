@@ -18,8 +18,8 @@ Lottie由Airbnb所發展，
 ## UI
 手機:  
 有播放及停止鍵，還有調整速度的Slider  
-<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile1.jpg" width="75%" height="75%">  
-<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile2.jpg" width="75%" height="75%">  
+<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile1.jpg" width="40%" height="60%">  
+<img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile2.jpg" width="40%" height="60%">  
 
 ## demo
 https://ruby840124.github.io/cat-animation/
