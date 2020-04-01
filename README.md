@@ -23,5 +23,6 @@ Lottie由Airbnb所發展，
 <img src="https://github.com/ruby840124/cat-animation/blob/master/demo/mobile2.jpg" width="30%" height="45%">  
 ## UI(PC)
 <img src="https://github.com/ruby840124/cat-animation/blob/master/demo/pc.JPG" width="60%" height="60%">  
+<br>
 ## demo
 https://ruby840124.github.io/cat-animation/
