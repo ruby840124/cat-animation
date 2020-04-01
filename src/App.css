@@ -16,6 +16,11 @@ html, body {
   background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
+.wrapperStyle{
+  margin-top: 10px;
+  width: 40vh;
+}
+
 .App {
   width: 100%;
   height: 100%;
@@ -25,6 +30,13 @@ html, body {
   flex-direction: column;
 }
 
+.controllPanel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 @media (max-width:700px){
 .animation {
   display: flex;
@@ -32,7 +44,6 @@ html, body {
   align-items: center;
   flex-direction: row;
 }
-
 
 .container {
   width: 35vh;
@@ -83,6 +94,17 @@ div.arrow:hover::before {
   border-color: orange;
   transform: scale(0.8);
 }
+
+.controllButton{
+  padding:10px 32px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 }
 
 @media screen and (min-width:700px) and (max-width:5000px){
@@ -141,5 +163,15 @@ div.arrow:hover::before {
   div.arrow:hover::before {
     border-color: orange;
     transform: scale(0.8);
+  }
+
+  .controllButton{
+    padding:10px 48px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   }
