@@ -1,4 +1,4 @@
-## cat-animation
+## cat-animation(use lottie)
 test for lottie 套件    
 使用相關套件-  
 animation:lottie  
