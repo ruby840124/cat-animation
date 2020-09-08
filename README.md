@@ -20,11 +20,27 @@ Lottie由Airbnb所發展，
 ## lottie notes
 因先前寫的部落格沒更新，雲端主機被砍xD<br>
 所以把lottie的筆記拿來這邊放<br>
+*Html+lottie*<br>
 *CDN(Content delivery network):*<br>
 ```html 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
 ```
-*Html+lottie*<br>
+*設定容器大小:*<br>
+```js     
+#svgContainer { 
+  width: 300px;
+}
+```
+*設定動畫內容:*<br>
+```js     
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('svgContainer'), //放入的容器
+  renderer: 'svg', //有svg、canvas、html選項 
+  loop: true, //動畫是否要循環播放
+  autoplay: true, //一開始自動播放
+  path: 'https://labs.nearpod.com/bodymovin/demo/markus/halloween/markus.json'// json檔案的路徑
+})
+```
 ```html
 <!DOCTYPE html>
 <html lang="en">
