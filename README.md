@@ -30,7 +30,7 @@ json檔案的大小比gif檔案小，且不會有邊緣鋸齒的狀況，性能�
 **Lottie的缺點:**<br>
 1.如果設計師的Adobe After Effects建了很多圖層，可能會造成json檔案文件大的問題。<br>
 2.Adobe After Effects某些動畫效果無法實現(像是描邊動畫等)<br>
-3.lottie其實在html上是svg、canvas動畫，若你想用自己程式寫動畫添加效果，就無法利用lottie。<br>
+3.lottie其實在html上是svg、canvas動畫，若你想用自己程式寫動畫添加效果，就無法利用lottie。
 <br><br>
 在使用lottie前，要先有json檔案，<br>
 可以有兩種方法取得:<br>
