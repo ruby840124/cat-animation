@@ -10,7 +10,7 @@ Lottie
 發想於一位德國的動畫導演的名字Lotte Reiniger，
 她最著名的作品-The Adventures of Prince Achmed (1926)為最古老的長篇動畫，
 所以團隊將此套件取名為Lottie。
-<br>
+<br><br>
 *簡介:* <br>
 Lottie由Airbnb所發展，   
 是一套適用於各類平台像是Android、iOS、Web和Windows的函式庫(Library)，
