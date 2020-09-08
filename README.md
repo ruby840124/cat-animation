@@ -11,7 +11,7 @@ Lottie
 她最著名的作品-The Adventures of Prince Achmed (1926)為最古老的長篇動畫，
 所以團隊將此套件取名為Lottie。
 <br>
-*簡介:* 
+*簡介:* <br>
 Lottie由Airbnb所發展，   
 是一套適用於各類平台像是Android、iOS、Web和Windows的函式庫(Library)，
 設計師將Adobe After Effects動畫經由Bodymovin的擴充功能輸出成JSON格式的檔案， 
