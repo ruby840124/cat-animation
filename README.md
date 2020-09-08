@@ -11,7 +11,7 @@ Lottie
 她最著名的作品-The Adventures of Prince Achmed (1926)為最古老的長篇動畫，
 所以團隊將此套件取名為Lottie。
 <br>
-*簡介:*<br>  
+*簡介:* 
 Lottie由Airbnb所發展，   
 是一套適用於各類平台像是Android、iOS、Web和Windows的函式庫(Library)，
 設計師將Adobe After Effects動畫經由Bodymovin的擴充功能輸出成JSON格式的檔案， 
@@ -24,7 +24,7 @@ Lottie除了呈現動畫外，<br>
 甚至可以新增addListener事件抓到動畫的開始、結束點，做更多的應用。<br>
 而除了在動畫控制的自由度上，再來是文件大小的部分，<br>
 json檔案的大小比gif檔案小，且不會有邊緣鋸齒的狀況，性能當然也更好，<br>
-以及不會有畫質壓縮等等的問題。<br>
+以及不會有畫質壓縮等等的問題。
 <br><br>
 *Lottie的缺點:*<br>
 1.如果設計師的Adobe After Effects建了很多圖層，<br>
