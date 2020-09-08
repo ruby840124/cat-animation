@@ -21,7 +21,7 @@ Lottie由Airbnb所發展，
 因先前寫的部落格沒更新，雲端主機被砍xD<br>
 所以把lottie的筆記拿來這邊放<br>
 *CDN(Content delivery network):*<br>
-```js<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>```<br>
+```html<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>```<br>
 *Html+lottie*<br>
 ```html
 <!DOCTYPE html>
