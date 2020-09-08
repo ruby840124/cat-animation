@@ -42,18 +42,18 @@ https://lottiefiles.com/<br>
 https://medium.com/as-a-product-designer/%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8lottie-%E5%B0%87%E5%AE%8C%E7%BE%8E%E5%8B%95%E7%95%AB100-%E5%91%88%E7%8F%BE%E5%9C%A8%E7%94%A2%E5%93%81%E4%B8%8A-7ac7107abfa5
 <br><br>
 ## lottie notes
-*Html搭配lottie套件*<br>
-*CDN(Content delivery network):*<br>
+**Html搭配lottie套件**<br>
+**CDN(Content delivery network):**<br>
 ```html 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
 ```
-*設定容器大小:*<br>
+**設定容器大小:**<br>
 ```js     
 #svgContainer { 
   width: 300px;
 }
 ```
-*設定動畫內容:*<br>
+**設定動畫內容:**<br>
 ```js     
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('svgContainer'), //放入的容器
@@ -63,7 +63,7 @@ var animation = bodymovin.loadAnimation({
   path: 'https://labs.nearpod.com/bodymovin/demo/markus/halloween/markus.json'// json檔案的路徑
 })
 ```
-*Html完整程式碼*<br>
+**Html完整程式碼**<br>
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -88,6 +88,58 @@ var animation = bodymovin.loadAnimation({
       autoplay: true,
       path: 'https://labs.nearpod.com/bodymovin/demo/markus/halloween/markus.json'
     })
+  </script>
+</body>
+</html>
+```
+**加上暫停、播放**<br>
+```js
+function play() {
+  animation.play();
+}
+function stop() {
+  animation.pause();
+}
+```
+```js
+  <button  onclick="play()">開始</button>
+  <button  onclick="stop()">停止</button>
+```
+**Html完整程式碼**<br>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>lottie demo</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js"></script>
+  <style>
+    #svgContainer { 
+        width: 300px;
+    }
+</style>
+</head>
+<body>
+  <button  onclick="play()">開始</button>
+  <button  onclick="stop()">停止</button>
+  <div id="svgContainer"> </div>
+  <script>
+    var animation = bodymovin.loadAnimation({
+      container: document.getElementById('svgContainer'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://labs.nearpod.com/bodymovin/demo/markus/halloween/markus.json'
+    })
+
+    function play() {
+        animation.play();
+    }
+
+    function stop() {
+        animation.pause();
+    }
   </script>
 </body>
 </html>
