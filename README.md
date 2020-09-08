@@ -258,7 +258,8 @@ class App extends React.Component {
 export default App;
 ```
 
-## UI(手機)  
+## UI(手機) 
+練習專案<br>
 - 動畫開始/停止 : 播放及停止鍵  
 - 調整速度 : Slider  
 - 更換動畫 : 左右button  
