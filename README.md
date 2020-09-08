@@ -144,6 +144,71 @@ function stop() {
 </body>
 </html>
 ```
+**React搭配lottie套件**<br>
+**下載lottie套件**<br>
+```js
+  npm install --save react-lottie
+```
+**引用**<br>
+```js
+  import React from 'react'
+  import Lottie from 'react-lottie';
+  import animationData from './cat.json'
+```
+**動畫設定:**<br>
+```js
+const defaultOptions = {
+  loop: true,
+  animationData: cat,
+  autoplay: true, 
+  rendererSettings: {
+  preserveAspectRatio: 'xMidYMid meet'
+ }
+ ```
+ **Lottie物件設定:**<br>
+```js
+<Lottie 
+  options={defaultOptions}
+  height={200}
+  width={200}
+/>
+ ```
+  **React完整程式碼:**<br>
+```js
+import React from 'react';
+import Lottie from 'react-lottie';
+import cat from './cat.json'
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    const defaultOptions = {
+      loop: true,
+      animationData: cat,
+      autoplay: true, 
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet'
+      }
+    };
+    this.state ={ defaultOptions:defaultOptions};
+  }
+
+  render() {
+  const {defaultOptions} = this.state;
+  return (
+    <div >
+          <Lottie 
+              options={defaultOptions}
+              height={200}
+              width={200}
+          />
+    </div>
+  );
+  }
+}
+
+export default App;
+
+ ```
 
 ## UI(手機)  
 - 動畫開始/停止 : 播放及停止鍵  
