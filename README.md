@@ -22,7 +22,7 @@ Lottie由Airbnb所發展，
 所以把lottie的筆記拿來這邊放<br>
 Html+lottie<br>
 ```html
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!--  Meta  -->
@@ -33,7 +33,7 @@ Html+lottie<br>
     #svgContainer { 
         width: 200px;
     }
-</style>
+  </style>
 </head>
 <body>
   <div id="svgContainer"> </div>
