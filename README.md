@@ -144,6 +144,7 @@ function stop() {
 </body>
 </html>
 ```
+---
 **React搭配lottie套件**<br>
 **下載lottie套件**<br>
 ```js
@@ -209,6 +210,53 @@ class App extends React.Component {
 export default App;
 
  ```
+ **加上暫停、播放**<br>
+```js
+this.state ={ defaultOptions:defaultOptions , isPaused:false};
+```
+```js
+   <button onClick={() => this.setState({isPaused: false})}>Play</button>
+   <button onClick={() => this.setState({isPaused: true})}>Pause</button>
+```
+ **React完整程式碼:**<br>
+ ```js
+import React from 'react';
+import Lottie from 'react-lottie';
+import cat from './cat.json'
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    const defaultOptions = {
+      loop: true,
+      autoplay: true, 
+      animationData: cat,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet'
+      }
+    };
+    this.state ={ defaultOptions:defaultOptions , isPaused:false};
+  }
+
+  render() {
+  const {defaultOptions, isPaused} = this.state;
+  return (
+    <div>
+          <Lottie 
+              options={defaultOptions}
+              isClickToPauseDisabled={true}
+              isPaused={isPaused}
+              height={200}
+              width={200}
+          />
+      <button onClick={() => this.setState({isPaused: false})}>Play</button>
+      <button onClick={() => this.setState({isPaused: true})}>Pause</button>
+    </div>
+  );
+  }
+}
+
+export default App;
+```
 
 ## UI(手機)  
 - 動畫開始/停止 : 播放及停止鍵  
