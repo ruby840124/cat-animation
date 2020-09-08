@@ -17,6 +17,10 @@ Lottie由Airbnb所發展，
 設計師將Adobe After Effects動畫經由Bodymovin的擴充功能輸出成JSON格式的檔案，  
 而Lottie讀取這個轉換後的JSON檔案，可以將設計師的動畫及時渲染在裝置上。
 <br>
+## lottie notes
+因先前寫的部落格沒更新，雲端主機被砍xD<br>
+所以把lottie的筆記拿來這邊放<br>
+
 ## UI(手機)  
 - 動畫開始/停止 : 播放及停止鍵  
 - 調整速度 : Slider  
