@@ -7,15 +7,15 @@ icon:react-icons
 <br>
 Lottie     
 *命名由來:*<br>    
-發想於一位德國的動畫導演的名字Lotte Reiniger，<br>  
-她最著名的作品-The Adventures of Prince Achmed (1926)為最古老的長篇動畫，<br>  
-所以團隊將此套件取名為Lottie。<br>  
+發想於一位德國的動畫導演的名字Lotte Reiniger，
+她最著名的作品-The Adventures of Prince Achmed (1926)為最古老的長篇動畫，
+所以團隊將此套件取名為Lottie。
 <br>
 *簡介:*<br>  
-Lottie由Airbnb所發展，<br>    
-是一套適用於各類平台像是Android、iOS、Web和Windows的函式庫(Library)，<br> 
-設計師將Adobe After Effects動畫經由Bodymovin的擴充功能輸出成JSON格式的檔案，<br>  
-而Lottie讀取這個轉換後的JSON檔案，可以將設計師的動畫及時渲染在裝置上。<br>
+Lottie由Airbnb所發展，   
+是一套適用於各類平台像是Android、iOS、Web和Windows的函式庫(Library)，
+設計師將Adobe After Effects動畫經由Bodymovin的擴充功能輸出成JSON格式的檔案， 
+而Lottie讀取這個轉換後的JSON檔案，可以將設計師的動畫及時渲染在裝置上。
 <br>
 *Lottie的優點:*<br>
 那你應該會想問，為什麼不直接放gif的動畫就好?<br>
