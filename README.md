@@ -6,7 +6,7 @@ slider:rc-slider
 icon:react-icons  
 <br>
 Lottie     
-*命名由來:*<br>    
+*命名由來:*   
 發想於一位德國的動畫導演的名字Lotte Reiniger，
 她最著名的作品-The Adventures of Prince Achmed (1926)為最古老的長篇動畫，
 所以團隊將此套件取名為Lottie。
