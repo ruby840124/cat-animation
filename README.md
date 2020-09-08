@@ -16,7 +16,7 @@ Lottie由Airbnb所發展，
 是一套適用於各類平台像是Android、iOS、Web和Windows的函式庫(Library)，
 設計師將Adobe After Effects動畫經由Bodymovin的擴充功能輸出成JSON格式的檔案， 
 而Lottie讀取這個轉換後的JSON檔案，可以將設計師的動畫及時渲染在裝置上。
-<br>
+<br><br>
 *Lottie的優點:*<br>
 那你應該會想問，為什麼不直接放gif的動畫就好?<br>
 Lottie除了呈現動畫外，<br>
@@ -25,7 +25,7 @@ Lottie除了呈現動畫外，<br>
 而除了在動畫控制的自由度上，再來是文件大小的部分，<br>
 json檔案的大小比gif檔案小，且不會有邊緣鋸齒的狀況，性能當然也更好，<br>
 以及不會有畫質壓縮等等的問題。<br>
-<br>
+<br><br>
 *Lottie的缺點:*<br>
 1.如果設計師的Adobe After Effects建了很多圖層，<br>
 可能會造成json檔案文件大的問題。<br>
