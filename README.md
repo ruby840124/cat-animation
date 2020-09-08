@@ -32,8 +32,17 @@ json檔案的大小比gif檔案小，且不會有邊緣鋸齒的狀況，性能�
 可能會造成json檔案文件大的問題。<br>
 2.Adobe After Effects某些動畫效果無法實現(像是描邊動畫等)<br>
 3.lottie其實在html上是svg、canvas動畫，若你想用自己程式寫動畫添加效果，<br>
-就無法利用lottie。<br>
-<br>
+就無法利用lottie。
+<br><br>
+在使用lottie前，要先有json檔案，<br>
+可以有兩種方法取得:<br>
+*方案一:直接拿現成的json檔案*<br>
+此網站上面有各種已經轉換的JSON動畫。<br>
+https://lottiefiles.com/<br>
+*方案二:自己生成JSON檔案<br>
+那如果你會做動畫，可以參考這篇文章，自行生成JSON檔案，來呈現自己製作的動畫。<br>
+https://medium.com/as-a-product-designer/%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8lottie-%E5%B0%87%E5%AE%8C%E7%BE%8E%E5%8B%95%E7%95%AB100-%E5%91%88%E7%8F%BE%E5%9C%A8%E7%94%A2%E5%93%81%E4%B8%8A-7ac7107abfa5
+<br><br>
 ## lottie notes
 *Html搭配lottie套件*<br>
 *CDN(Content delivery network):*<br>
